@@ -1,0 +1,22 @@
+{
+  "name": "dreamy",
+  "displayName": "Dreamy",
+  "description": "Dark theme for aesthetics",
+  "version": "0.0.1",
+  "publisher": "dreamscape-visionery-llc",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dreamy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dreamy-color-theme.json"
+      }
+    ]
+  }
+}
