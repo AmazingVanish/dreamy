@@ -1,3 +1,3 @@
-# Dreamy - A dark VS Code theme for Aesthetics
+# Dreamy - A dark VS Code theme for Aesthetes
 
 ## Philosophy
