@@ -1,97 +1,132 @@
-// Palette 2 URL: http://paletton.com/#uid=72E1m0kwi++bu++hX++++rd++kX
+// Palette 1 URL: http://paletton.com/#uid=73S0u0kwi++bu++hX++++rd++kX (Yellow Blue Purple - Tetradic)
+// Palette 1 Pastels URL: http://paletton.com/#uid=73S0u0kl1Wx1x+IcEXDsUWkWEVB
+// Palette 1 Dark URL: http://paletton.com/#uid=73S0u0kt+lZlOstrKqzzSiaJidt
 
-$color-red-lightest: #ffa4b9;
-$color-red-light: #ff7091;
-$color-red: #ff003b;
-$color-red-dark: #c7002e;
-$color-red-darkest: #990024;
+// Palette 2 URL: http://paletton.com/#uid=72L0u0kwi++bu++hX++++rd++kX  (Red Orange Green Cyan)
+// Palette 2 Pastels URL: http://paletton.com/#uid=72L0u0kl1Wx1x+IcEXDsUWkWEVB
+// Palette 2 Dark URL: http://paletton.com/#uid=72L0u0kt+lZlOstrKqzzSiaJidt
 
-$pastel-red-lightest: #fff3f6;
-$pastel-red-light: #fd99b0;
-$pastel-red: #fc577d;
-$pastel-red-dark: #fc184d;
-$pastel-red-darkest: #fb003b;
+.pastel-red-lightest { color: #FFF3F4 }
+.pastel-red-light { color: #FE9AA3 }
+.pastel-red { color: #FE5767 }	/* Main Complement color */
+.pastel-red-dark { color: #FE192F }
+.pastel-red-darkest { color: #FE0018 }
 
-$color-orange-lightest: #ffcda4;
-$color-orange-light: #ffb170;
-$color-orang0: #ff7400;
-$color-orange-dark: #d96200;
-$color-orange-darkest: #a74c00;
+.color-red-lightest { color: #FFA4AC }
+.color-red-light { color: #FF707E }
+.color-red { color: #FF0018 }	/* Main Complement color */
+.color-red-dark { color: #D20014 }
+.color-red-darkest { color: #A1000F }
 
-$pastel-orange-lightest: #fff8f3;
-$pastel-orange-light: #ffc89a;
-$pastel-orange: #ffa358;
-$pastel-orange-dark: #ff8119;
-$pastel-orange-darkest: #ff7400;
+.dark-red-lightest { color: #DB4654 }
+.dark-red-light { color: #CD1B2C }
+.dark-red-dark { color: #8C000D }
+.dark-red-darkest { color: #68000A }
 
-$pastel-yellow-lt-lightest: #fffff3;
-$pastel-yellow-lt-light: #fffc9a;
-$pastel-yellow-lt: #fffb58;
-$pastel-yellow-lt-dark: #fff919;
-$pastel-yellow-lt-darkest: #fff800;
+.pastel-orange-lightest { color: #FFF8F3 }
+.pastel-orange-light { color: #FFC49A }
+.pastel-orange { color: #FF9D58 }	/* Main Secondary color (2) */
+.pastel-orange-dark { color: #FF7819 }
+.pastel-orange-darkest { color: #FF6A00 }
 
-$color-yellow-lt-lightest: #fffda4;
-$color-yellow-lt-light: #fffb70;
-$color-yellow-lt: #fff800;
-$color-yellow-lt-dark: #d9d300;
-$color-yellow-lt-darkest: #a7a300;
+.color-orange-lightest { color: #FFC9A4 }
+.color-orange-light { color: #FFAB70 }
+.color-orange { color: #FF6A00 }	/* Main Secondary color (2) */
+.color-orange-dark { color: #D95A00 }
+.color-orange-darkest { color: #A74500 }
 
-$color-yellow-lightest: #ffe8a4;
-$color-yellow-light: #ffdb70;
-$color-yellow: #ffbf00;
-$color-yellow-dark: #d9a300;
-$color-yellow-darkest: #a77d00;
+.dark-orange-lightest { color: #E38848 }
+.dark-orange-light { color: #D4681C }
+.dark-orange { color: #AF4F0B }	/* Main Secondary color (2) */
+.dark-orange-dark { color: #913C00 }
+.dark-orange-darkest { color: #6B2C00 }
 
-$pastel-yellow-lightest: #fffcf3;
-$pastel-yellow-light: #ffe69a;
-$pastel-yellow: #ffd558;
-$pastel-yellow-dark: #ffc519;
-$pastel-yellow-darkest: #ffbf00;
+.pastel-yellow-lightest { color: #FFFDF3 }
+.pastel-yellow-light { color: #FFF19A }
+.pastel-yellow { color: #FFE858 }
+.pastel-yellow-dark { color: #FFE019 }
+.pastel-yellow-darkest { color: #FFDD00 }
 
-$color-green-lightest: #c6ffa4;
-$color-green-light: #a5ff70;
-$color-green: #5fff00;
-$color-green-dark: #47be00;
-$color-green-darkest: #369200;
+.color-yellow-lightest { color: #FFF3A4 }
+.color-yellow-light { color: #FFEC70 }
+.color-yellow { color: #FFDD00 }
+.color-yellow-dark { color: #D9BC00 }
+.color-yellow-darkest { color: #A79000 }
 
-$pastel-green-lightest: #f7fff3;
-$pastel-green-light: #bdfc98;
-$pastel-green: #93fb56;
-$pastel-green-dark: #6cfa18;
-$pastel-green-darkest: #5dfa00;
+.dark-yellow-lightest { color: #E3CE48 }
+.dark-yellow-light { color: #D4BB1C }
+.dark-yellow { color: #AF990B }
+.dark-yellow-dark { color: #917D00 }
+.dark-yellow-darkest { color: #6B5D00 }
 
-$color-blue-lightest: #b1b1ff;
-$color-blue-light: #8585ff;
-$color-blue-: #2626ff;
-$color-blue-dark: #000098;
-$color-blue-darkest: #000075;
+.pastel-green-lightest { color: #F5FFF3 }
+.pastel-green-light { color: #A9FB98 }
+.pastel-green { color: #72F956 }	/* Main Primary color */
+.pastel-green-dark { color: #3FF918 }
+.pastel-green-darkest { color: #2BF800 }
 
-$pastel-blue-lightest: #f4f4fe;
-$pastel-blue-light: #a4a4f7;
-$pastel-blue-: #6c6cf4;
-$pastel-blue-dark: #3939f4;
-$pastel-blue-darkest: #0505f2;
+.color-green-lightest { color: #B3FFA4 }
+.color-green-light { color: #89FF70 }
+.color-green { color: #2CFF00 }	/* Main Primary color */
+.color-green-dark { color: #1FB500 }
+.color-green-darkest { color: #188B00 }
 
-$color-cyan-lightest: #a4ffff;
-$color-cyan-light: #70ffff;
-$color-cyan: #00ffff;
-$color-cyan-dark: #008282;
-$color-cyan-darkest: #006464;
+.dark-green-lightest { color: #53BD3C }
+.dark-green-light { color: #32B117 }
+.dark-green { color: #219209 }	/* Main Primary color */
+.dark-green-dark { color: #157900 }
+.dark-green-darkest { color: #105900 }
 
-$pastel-cyan-lightest: #f2fefe;
-$pastel-cyan-light: #94f4f4;
-$pastel-cyan: #53f1f1;
-$pastel-cyan-dark: #17f0f0;
-$pastel-cyan-darkest: #00eeee;
+.pastel-cyan-lightest { color: #F2FEFD }
+.pastel-cyan-light { color: #94F5E8 }
+.pastel-cyan { color: #53F2DC }	/* Main Secondary color (1) */
+.pastel-cyan-dark { color: #17F1D3 }
+.pastel-cyan-darkest { color: #00EFCE }
 
-$color-purple-lightest: #dba9ff;
-$color-purple-light: #c779ff;
-$color-purple: #9b10ff;
-$color-purple-dark: #540091;
-$color-purple-darkest: #410070;
+.color-cyan-lightest { color: #A4FFF2 }
+.color-cyan-light { color: #70FFEB }
+.color-cyan { color: #00FFDC }	/* Main Secondary color (1) */
+.color-cyan-dark { color: #008875 }
+.color-cyan-darkest { color: #00695A }
 
-$pastel-purple-lightest: #faf3fe;
-$pastel-purple-light: #d09bf6;
-$pastel-purple0: #b45ef3;
-$pastel-purple-dark: #9d25f3;
-$pastel-purple-darkest: #8d02f1;
+.dark-cyan-lightest { color: #2D8E81 }
+.dark-cyan-light { color: #128575 }
+.dark-cyan { color: #076E60 }	/* Main Secondary color (1) */
+.dark-cyan-dark { color: #005B4E }
+.dark-cyan-darkest { color: #00433A }
+
+.pastel-blue-lightest { color: #F4F6FE }
+.pastel-blue-light { color: #A1B0F6 }
+.pastel-blue { color: #6780F4 }
+.pastel-blue-dark { color: #3355F3 }
+.pastel-blue-darkest { color: #042EF1 }
+
+.color-blue-lightest { color: #AFBDFF }
+.color-blue-light { color: #8298FF }
+.color-blue { color: #1F47FF }
+.color-blue-dark { color: #001A94 }
+.color-blue-darkest { color: #001472 }
+
+.dark-blue-lightest { color: #3E4F9B }
+.dark-blue-light { color: #233690 }
+.dark-blue { color: #152777 }
+.dark-blue-dark { color: #0B1A63 }
+.dark-blue-darkest { color: #051149 }
+
+.pastel-purple-lightest { color: #F7F3FE }
+.pastel-purple-light { color: #BC9FF7 }
+.pastel-purple { color: #9364F4 }
+.pastel-purple-dark { color: #6F2EF3 }
+.pastel-purple-darkest { color: #5103F1 }
+
+.color-purple-lightest { color: #C8ADFF }
+.color-purple-light { color: #A97EFF }
+.color-purple { color: #6519FF }
+.color-purple-dark { color: #310094 }
+.color-purple-darkest { color: #250072 }
+
+.dark-purple-lightest { color: #5B3C9B }
+.dark-purple-light { color: #452091 }
+.dark-purple { color: #341378 }
+.dark-purple-dark { color: #260963 }
+.dark-purple-darkest { color: #1B0449 }
