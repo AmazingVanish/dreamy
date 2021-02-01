@@ -1,0 +1,406 @@
+/* Palette 1 URL: http://paletton.com/#uid=73S0u0kwi++bu++hX++++rd++kX (Yellow Blue Purple)
+* Palette 1 Pastels URL: http://paletton.com/#uid=73S0u0kl1Wx1x+IcEXDsUWkWEVB
+* Palette 1 Dark URL: http://paletton.com/#uid=73S0u0kt+lZlOstrKqzzSiaJidt
+*
+* Palette 2 URL: http://paletton.com/#uid=72L0u0kwi++bu++hX++++rd++kX  (Red Orange Green Cyan)
+* Palette 2 Pastels URL: http://paletton.com/#uid=72L0u0kl1Wx1x+IcEXDsUWkWEVB
+* Palette 2 Dark URL: http://paletton.com/#uid=72L0u0kt+lZlOstrKqzzSiaJidt
+*
+* Magenta was defined using an additional color theory based on Palette 2)
+*/
+
+.pastel-magenta-lightest {
+  background-color: #fff2fa;
+}
+
+.pastel-magenta-light {
+  background-color: #f997d1;
+}
+
+.pastel-magenta {
+  background-color: #f855b4;
+}
+
+/* Main Primary color */
+.pastel-magenta-dark {
+  background-color: #f7189b;
+}
+
+.pastel-magenta-darkest {
+  background-color: #f60090;
+}
+
+.vibrant-magenta-lightest {
+  background-color: #ffa4d9;
+}
+
+.vibrant-magenta-light {
+  background-color: #ff70c4;
+}
+
+.vibrant-magenta {
+  background-color: #ff0095;
+}
+
+/* Main Primary color */
+.vibrant-magenta-dark {
+  background-color: #ac0065;
+}
+
+.vibrant-magenta-darkest {
+  background-color: #85004e;
+}
+
+.dark-magenta-lightest {
+  background-color: #b43981;
+}
+
+.dark-magenta-light {
+  background-color: #a8166c;
+}
+
+.dark-magenta {
+  background-color: #8b0955;
+}
+
+/* Main Primary color */
+.dark-magenta-dark {
+  background-color: #730043;
+}
+
+.dark-magenta-darkest {
+  background-color: #550032;
+}
+
+.pastel-red-lightest {
+  color: #fff3f4;
+}
+.pastel-red-light {
+  color: #fe9aa3;
+}
+.pastel-red {
+  color: #fe5767;
+}
+.pastel-red-dark {
+  color: #fe192f;
+}
+.pastel-red-darkest {
+  color: #fe0018;
+}
+
+.color-red-lightest {
+  color: #ffa4ac;
+}
+.color-red-light {
+  color: #ff707e;
+}
+.color-red {
+  color: #ff0018;
+}
+.color-red-dark {
+  color: #d20014;
+}
+.color-red-darkest {
+  color: #a1000f;
+}
+
+.dark-red-lightest {
+  color: #db4654;
+}
+.dark-red-light {
+  color: #cd1b2c;
+}
+.dark-red-dark {
+  color: #8c000d;
+}
+.dark-red-darkest {
+  color: #68000a;
+}
+
+.pastel-orange-lightest {
+  color: #fff8f3;
+}
+.pastel-orange-light {
+  color: #ffc49a;
+}
+.pastel-orange {
+  color: #ff9d58;
+}
+.pastel-orange-dark {
+  color: #ff7819;
+}
+.pastel-orange-darkest {
+  color: #ff6a00;
+}
+
+.color-orange-lightest {
+  color: #ffc9a4;
+}
+.color-orange-light {
+  color: #ffab70;
+}
+.color-orange {
+  color: #ff6a00;
+}
+.color-orange-dark {
+  color: #d95a00;
+}
+.color-orange-darkest {
+  color: #a74500;
+}
+
+.dark-orange-lightest {
+  color: #e38848;
+}
+.dark-orange-light {
+  color: #d4681c;
+}
+.dark-orange {
+  color: #af4f0b;
+}
+.dark-orange-dark {
+  color: #913c00;
+}
+.dark-orange-darkest {
+  color: #6b2c00;
+}
+
+.pastel-yellow-lightest {
+  color: #fffdf3;
+}
+.pastel-yellow-light {
+  color: #fff19a;
+}
+.pastel-yellow {
+  color: #ffe858;
+}
+.pastel-yellow-dark {
+  color: #ffe019;
+}
+.pastel-yellow-darkest {
+  color: #ffdd00;
+}
+
+.color-yellow-lightest {
+  color: #fff3a4;
+}
+.color-yellow-light {
+  color: #ffec70;
+}
+.color-yellow {
+  color: #ffdd00;
+}
+.color-yellow-dark {
+  color: #d9bc00;
+}
+.color-yellow-darkest {
+  color: #a79000;
+}
+
+.dark-yellow-lightest {
+  color: #e3ce48;
+}
+.dark-yellow-light {
+  color: #d4bb1c;
+}
+.dark-yellow {
+  color: #af990b;
+}
+.dark-yellow-dark {
+  color: #917d00;
+}
+.dark-yellow-darkest {
+  color: #6b5d00;
+}
+
+.pastel-green-lightest {
+  color: #f5fff3;
+}
+.pastel-green-light {
+  color: #a9fb98;
+}
+.pastel-green {
+  color: #72f956;
+}
+.pastel-green-dark {
+  color: #3ff918;
+}
+.pastel-green-darkest {
+  color: #2bf800;
+}
+
+.color-green-lightest {
+  color: #b3ffa4;
+}
+.color-green-light {
+  color: #89ff70;
+}
+.color-green {
+  color: #2cff00;
+}
+.color-green-dark {
+  color: #1fb500;
+}
+.color-green-darkest {
+  color: #188b00;
+}
+
+.dark-green-lightest {
+  color: #53bd3c;
+}
+.dark-green-light {
+  color: #32b117;
+}
+.dark-green {
+  color: #219209;
+}
+.dark-green-dark {
+  color: #157900;
+}
+.dark-green-darkest {
+  color: #105900;
+}
+
+.pastel-cyan-lightest {
+  color: #f2fefd;
+}
+.pastel-cyan-light {
+  color: #94f5e8;
+}
+.pastel-cyan {
+  color: #53f2dc;
+}
+.pastel-cyan-dark {
+  color: #17f1d3;
+}
+.pastel-cyan-darkest {
+  color: #00efce;
+}
+
+.color-cyan-lightest {
+  color: #a4fff2;
+}
+.color-cyan-light {
+  color: #70ffeb;
+}
+.color-cyan {
+  color: #00ffdc;
+}
+.color-cyan-dark {
+  color: #008875;
+}
+.color-cyan-darkest {
+  color: #00695a;
+}
+
+.dark-cyan-lightest {
+  color: #2d8e81;
+}
+.dark-cyan-light {
+  color: #128575;
+}
+.dark-cyan {
+  color: #076e60;
+}
+.dark-cyan-dark {
+  color: #005b4e;
+}
+.dark-cyan-darkest {
+  color: #00433a;
+}
+
+.pastel-blue-lightest {
+  color: #f4f6fe;
+}
+.pastel-blue-light {
+  color: #a1b0f6;
+}
+.pastel-blue {
+  color: #6780f4;
+}
+.pastel-blue-dark {
+  color: #3355f3;
+}
+.pastel-blue-darkest {
+  color: #042ef1;
+}
+
+.color-blue-lightest {
+  color: #afbdff;
+}
+.color-blue-light {
+  color: #8298ff;
+}
+.color-blue {
+  color: #1f47ff;
+}
+.color-blue-dark {
+  color: #001a94;
+}
+.color-blue-darkest {
+  color: #001472;
+}
+
+.dark-blue-lightest {
+  color: #3e4f9b;
+}
+.dark-blue-light {
+  color: #233690;
+}
+.dark-blue {
+  color: #152777;
+}
+.dark-blue-dark {
+  color: #0b1a63;
+}
+.dark-blue-darkest {
+  color: #051149;
+}
+
+.pastel-purple-lightest {
+  color: #f7f3fe;
+}
+.pastel-purple-light {
+  color: #bc9ff7;
+}
+.pastel-purple {
+  color: #9364f4;
+}
+.pastel-purple-dark {
+  color: #6f2ef3;
+}
+.pastel-purple-darkest {
+  color: #5103f1;
+}
+
+.color-purple-lightest {
+  color: #c8adff;
+}
+.color-purple-light {
+  color: #a97eff;
+}
+.color-purple {
+  color: #6519ff;
+}
+.color-purple-dark {
+  color: #310094;
+}
+.color-purple-darkest {
+  color: #250072;
+}
+
+.dark-purple-lightest {
+  color: #5b3c9b;
+}
+.dark-purple-light {
+  color: #452091;
+}
+.dark-purple {
+  color: #341378;
+}
+.dark-purple-dark {
+  color: #260963;
+}
+.dark-purple-darkest {
+  color: #1b0449;
+}

@@ -2,7 +2,7 @@
   "name": "dreamy",
   "displayName": "Dreamy",
   "description": "Dark theme for aesthetics",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "dreamscape-visionery-llc",
   "engines": {
     "vscode": "^1.52.0"
@@ -13,9 +13,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dreamy",
+        "label": "Dreamy Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dreamy-color-theme.json"
+        "path": "./themes/Dreamy-dark.json"
+      },
+      {
+        "label": "Dreamy Neutral",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dreamy-neutral.json"
+      },
+      {
+        "label": "Dreamy Light",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dreamy-light.json"
       }
     ]
   },
