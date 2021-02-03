@@ -6,70 +6,115 @@
 * Palette 2 Pastels URL: http://paletton.com/#uid=72L0u0kl1Wx1x+IcEXDsUWkWEVB
 * Palette 2 Dark URL: http://paletton.com/#uid=72L0u0kt+lZlOstrKqzzSiaJidt
 *
-* Magenta was defined using an additional color theory based on Palette 2)
+* Magenta was defined using an additional color theory based on Palette 2
 */
 
+.color-lightness-lightest {
+  color: #eeeded;
+}
+.color-lightness-light {
+  color: #bbbbbb;
+}
+.color-lightness {
+  color: #909090;
+}
+.color-lightness-dark {
+  color: #616161;
+}
+.color-lightness-darkest {
+  color: #252525;
+}
+
+.color-fog-of-war-lightest {
+  color: #bfbebe;
+}
+.color-fog-of-war-light {
+  color: #8f8f8f;
+}
+.color-fog-of-war {
+  color: #606060;
+}
+.color-fog-of-war-dark {
+  color: #252525;
+}
+.color-fog-of-war-darkest {
+  color: #040303;
+}
+
+.color-darkness-lightest {
+  color: #9b9a9a;
+}
+.color-darkness-light {
+  color: #686868;
+}
+.color-darkness {
+  color: #303030;
+}
+.color-darkness-dark {
+  color: #030202;
+}
+.color-darkness-darkest {
+  color: #000000;
+}
+
 .pastel-magenta-lightest {
-  background-color: #fff2fa;
+  color: #fff2fa;
 }
 
 .pastel-magenta-light {
-  background-color: #f997d1;
+  color: #f997d1;
 }
 
 .pastel-magenta {
-  background-color: #f855b4;
+  color: #f855b4;
 }
 
-/* Main Primary color */
 .pastel-magenta-dark {
-  background-color: #f7189b;
+  color: #f7189b;
 }
 
 .pastel-magenta-darkest {
-  background-color: #f60090;
+  color: #f60090;
 }
 
 .vibrant-magenta-lightest {
-  background-color: #ffa4d9;
+  color: #ffa4d9;
 }
 
 .vibrant-magenta-light {
-  background-color: #ff70c4;
+  color: #ff70c4;
 }
 
 .vibrant-magenta {
-  background-color: #ff0095;
+  color: #ff0095;
 }
 
-/* Main Primary color */
 .vibrant-magenta-dark {
-  background-color: #ac0065;
+  color: #ac0065;
 }
 
 .vibrant-magenta-darkest {
-  background-color: #85004e;
+  color: #85004e;
 }
 
 .dark-magenta-lightest {
-  background-color: #b43981;
+  color: #b43981;
 }
 
 .dark-magenta-light {
-  background-color: #a8166c;
+  color: #a8166c;
 }
 
 .dark-magenta {
-  background-color: #8b0955;
+  color: #8b0955;
 }
 
-/* Main Primary color */
 .dark-magenta-dark {
-  background-color: #730043;
+  color: #730043;
 }
 
 .dark-magenta-darkest {
-  background-color: #550032;
+  color: #550032;
 }
 
 .pastel-red-lightest {
