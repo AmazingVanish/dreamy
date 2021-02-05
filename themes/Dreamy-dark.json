@@ -6,65 +6,27 @@
     "twitter": "@vanish",
     "semanticHighlighting": false,
 
-    /* User Interface colors.
-     * Definitive list of UI colors as of February 1, 2021 (Code v.1.52.1)
-     *
-     * Language syntax coloring is in the next, larger section. The intent of this
-     * file is to document how the colors are grouped in the actual theme files.
-     *
-     * Some items are NOT customized in the theme but are listed here for
-     * completeness should anyone wish to change them in the actual theme files.
-     *
-     * Hovering over each identifier provides an explanation of what it impacts
-     * in a tooltip. Use this to further understand what each color changes.
-     *
-     * Do NOT use this file as a theme. While it will work (We used this file for
-     * the initial development of the Dark theme), it is not recommended to use a
-     * jsonc (JSON with Comments) file for your chosen theme.
-     */
-
     "colors": {
-        /* Contrast Colors
-         * The contrast colors are typically only set for high contrast themes.
-         * If set, they add an additional border around items across the UI to
-         * increase the contrast.
-         */
-        "contrastActiveBorder": "#ff0000",
-        "contrastBorder": "#ff0000",
-
-        /* Base Colors
-         * These are the primary colors used to form the basis of the UI.
-         */
         "descriptionForeground": "#4d5566",
-        "errorForeground": "#ff3333",
+        "errorForeground": "#ff0018",
         "icon.foreground": "#4d5566",
         "focusBorder": "#3c4250",
-        "foreground": "#4d5566",
+        "foreground": "#808080",
         "sash.hoverBorder": "#ff0000",
         "selection.background": "#273747fd",
         "widget.shadow": "#00010a",
 
-        /* Window Border
-         * Theme colors for VS Code window border
-         */
-        "window.activeBorder": "#ff0000",
-        "window.inactiveBorder": "#ff0000",
+        "window.activeBorder": "#606060",
+        "window.inactiveBorder": "#404040",
 
-        /* Text Colors
-         * Colors inside a text document, such as the Welcome page
-         */
-        "textBlockQuote.background": "#0d1016",
+        "textBlockQuote.background": "#080808",
         "textBlockQuote.border": "#ff0000",
         "textCodeBlock.background": "#ff0000",
-        "textLink.activeForeground": "#e6b450",
-        "textLink.foreground": "#e6b450",
+        "textLink.activeForeground": "#8298ff",
+        "textLink.foreground": "#1f47ff",
         "textPreformat.foreground": "#b3b1ad",
         "textSeparator.foreground": "#ff0000",
 
-        /* Button Control
-         * A set of colors for Button widgets such as the Open Folder button in
-         * the Explorer of a new window.
-         */
         "button.background": "#e6b450",
         "button.foreground": "#0a0e14",
         "button.hoverBackground": "#e1af4b",
@@ -75,19 +37,11 @@
         "checkbox.border": "#ff0000",
         "checkbox.foreground": "#ff0000",
 
-        /* Dropdown Control
-         * A set of colors for all dropdown widgets such as in the integrated
-         * Terminal or the Output panel. NOTE: Note current;y used on macOS.
-         */
         "dropdown.border": "#2b303a",
         "dropdown.background": "#0d1016",
         "dropdown.foreground": "#4d5566",
         "dropdown.listBackground": "#ff0000",
 
-        /* Input Control
-         * Colors for the input controls such as in the Search view or the
-         * Find/Replace dialog.
-         */
         "input.background": "#030810",
         "input.border": "#2b303a",
         "input.foreground": "#b3b1ad",
@@ -105,30 +59,16 @@
         "inputValidation.warningBorder": "#ffb454",
         "inputValidation.warningForeground": "#ff0000",
 
-        /* Scroll Bar Control
-         * Colors for the scroll bar and scroll gutter region of the UI.
-         */
         "scrollbar.shadow": "#00010a",
         "scrollbarSlider.activeBackground": "#4d5566b3",
         "scrollbarSlider.background": "#4d556666",
         "scrollbarSlider.hoverBackground": "#4d556699",
 
-        /* Badge
-         * Badges are the small information labels, for example, search
-         * results count and number of problems.
-         */
         "badge.background": "#e6b45033",
         "badge.foreground": "#e6b450",
 
-        /* Progress Bar
-         * Color for display of progress bars.
-         */
         "progressBar.background": "#e6b450",
 
-        /* Lists and Trees
-         * Colors for lists and trees like the File Explorer. An active
-         * list/tree has keyboard focus, an inactive one does not.
-         */
         "list.activeSelectionBackground": "#00010a",
         "list.activeSelectionForeground": "#4d5566",
         "list.deemphasizedForeground": "#ff0000",
@@ -151,10 +91,6 @@
         "listFilterWidget.outline": "#e6b450",
         "tree.indentGuidesStroke": "#4d5566b3",
 
-        /* Activity Bar
-         * The Activity Bar is displayed either on the far left or right of the
-         * workbench and allows fast switching between views of the Side Bar.
-         */
         "activityBar.activeBackground": "#ff0000",
         "activityBar.activeBorder": "#ff0000",
         "activityBar.activeFocusBorder": "#ff0000",
@@ -166,9 +102,6 @@
         "activityBarBadge.background": "#e6b450",
         "activityBarBadge.foreground": "#0a0e14",
 
-        /* Side Bar
-         * The Side Bar contains views like the Explorer and Search
-         */
         "sideBar.background": "#0a0e14",
         "sideBar.border": "#0a0e14",
         "sideBar.dropBackground": "#ff0000",
@@ -178,12 +111,6 @@
         "sideBarSectionHeader.foreground": "#4d5566",
         "sideBarTitle.foreground": "#4d5566",
 
-        /* Minimap
-         * The Minimap , unless you've disabled it, sits flush against
-         * the right side of the editor and displays a graphical
-         * representation of the code in the current visible file.
-         * This is useful for quick navigation around the file.
-         */
         "minimap.background": "#ff0000",
         "minimap.errorHighlight": "#ff0000",
         "minimap.findMatchHighlight": "#ff0000",
@@ -196,11 +123,6 @@
         "minimapSlider.background": "#ff0000",
         "minimapSlider.hoverBackground": "#ff0000",
 
-        /* Editor Groups & Tabs
-         * Editor groups are the containers of editors. There can be up to
-         * three editor groups. A Tab is the container of an editor. Multiple
-         * Tabs can be opened in one editor group.
-         */
         "editorGroup.border": "#00010a",
         "editorGroup.dropBackground": "#ff0000",
         "editorGroup.emptyBackground": "#ff0000",
@@ -234,12 +156,6 @@
         "tab.unfocusedInactiveForeground": "#4d5566",
         "tab.unfocusedInactiveModifiedBorder": "#ff0000",
 
-        /* Editor Colors
-         * The most prominent editor colors are the token colors that are
-         * based on the language grammar installed. These colors are defined
-         * by the Color Theme (see below). All other colors are listed here.
-         */
-        //-: Editor Base Colors
         "editor.background": "#0a0e14",
         "editor.foreground": "#b3b1ad",
         "editorCursor.background": "#ff0000",
@@ -248,20 +164,17 @@
         "editorLineNumber.foreground": "#4d556699",
         "editorPane.background": "#ff0000",
 
-        //-: Selection Colors - Visible when selecting one or more characters.
         "editor.inactiveSelectionBackground": "#1b2733",
         "editor.selectionBackground": "#273747",
         "editor.selectionForeground": "#ff0000",
         "editor.selectionHighlightBackground": "#1b2733",
         "editor.selectionHighlightBorder": "#304357",
 
-        //-: Word Highlight Colors - Visible when the cursor is inside a symbol or word.
         "editor.wordHighlightBackground": "#6994bf12",
         "editor.wordHighlightBorder": "#6994bf80",
         "editor.wordHighlightStrongBackground": "#91b36212",
         "editor.wordHighlightStrongBorder": "#91b36280",
 
-        //-: Find Colors - Depend on the current find string in the Find/Replace dialog.
         "editor.findMatchBackground": "#e6b4500d",
         "editor.findMatchBorder": "#e6b450",
         "editor.findMatchHighlightBackground": "#e6b4500d",
@@ -269,55 +182,41 @@
         "editor.findRangeHighlightBackground": "#1b2733",
         "editor.findRangeHighlightBorder": "#0a0e1400",
 
-        //-: Search Editor colors - Highlights results in a search editor.
         "searchEditor.findMatchBackground": "#ff0000",
         "searchEditor.findMatchBorder": "#ff0000",
         "searchEditor.textInputBorder": "#ff0000",
 
-        //-: Hover Highlight - Shown behind the symbol for which a hover is shown.
         "editor.hoverHighlightBackground": "#ff0000",
 
-        //=: Current Line - Typically shown as a highlight or a border (not both)
         "editor.lineHighlightBackground": "#00010a",
         "editor.lineHighlightBorder": "#ff0000",
 
-        //-: Link Color - Visible when clicking a link.
         "editorLink.activeForeground": "#e6b450",
 
-        //-: Range Highlight - Visible when selecting a search result.
         "editor.rangeHighlightBackground": "#00010a",
         "editor.rangeHighlightBorder": "#ff0000",
 
-        //-: Symbol Highlight - Visible when navigating to a symbol via a command such as Go to Definition
         "editor.symbolHighlightBackground": "#ff0000",
         "editor.symbolHighlightBorder": "#ff0000",
 
-        //-: Whitespace - To view the white spaces, enable Toggle Render Whitespace
         "editorWhitespace.foreground": "#4d556699",
 
-        //-: Indent Guides - to view set "editor.renderIndentGuides": true
         "editorIndentGuide.activeBackground": "#4d5566b3",
         "editorIndentGuide.background": "#4d556666",
 
-        //-: Rulers - to view rulers, define their location with "editor.rulers"
         "editorRuler.foreground": "#4d556666",
         "editor.linkedEditingBackground": "#ff0000",
 
-        //-: CodeLens
         "editorCodeLens.foreground": "#626a73",
 
-        //-: Lightbulb
         "editorLightBulb.foreground": "#ff0000",
         "editorLightBulbAutoFix.foreground": "#ff0000",
 
-        //-: Bracket Matches
         "editorBracketMatch.background": "#4d55664d",
         "editorBracketMatch.border": "#4d556699",
 
-        //-: Folding
         "editor.foldBackground": "#ff0000",
 
-        //-: Overview Ruler - Located beneath the right scrollbar and gives an overview of the decorations
         "editorOverviewRuler.addedForeground": "#91b36299",
         "editorOverviewRuler.background": "#ff0000",
         "editorOverviewRuler.border": "#00010a",
@@ -333,7 +232,6 @@
         "editorOverviewRuler.wordHighlightForeground": "#ff0000",
         "editorOverviewRuler.wordHighlightStrongForeground": "#ff0000",
 
-        //-: Errors and Warnings
         "editorError.background": "#ff0000",
         "editorError.border": "#ff0000",
         "editorError.foreground": "#ff3333",
@@ -349,11 +247,9 @@
         "problemsInfoIcon.foreground": "#ff0000",
         "problemsWarningIcon.foreground": "#ff0000",
 
-        //-: Unused source code
         "editorUnnecessaryCode.border": "#ff0000",
         "editorUnnecessaryCode.opacity": "#ff0000",
 
-        //-: The Gutter - COntains the glyph margins and the line numbers
         "editorGutter.addedBackground": "#91b36299",
         "editorGutter.background": "#ff0000",
         "editorGutter.commentRangeForeground": "#ff0000",
@@ -361,10 +257,6 @@
         "editorGutter.deletedBackground": "#d96c7599",
         "editorGutter.modifiedBackground": "#6994bf99",
 
-        /* Diff Editor Colors
-         * For coloring inserted and removed text, use either a background
-         * or a border color, but not both.
-         */
         "diffEditor.border": "#ff0000",
         "diffEditor.diagonalFill": "#ff0000",
         "diffEditor.insertedTextBackground": "#c2d94c26",
@@ -372,11 +264,6 @@
         "diffEditor.removedTextBackground": "#f2966826",
         "diffEditor.removedTextBorder": "#ff0000",
 
-        /* Editor Widget Colors
-         * The Editor widget is shown in front of the editor content.
-         * Examples are the Find/Replace dialog, the suggestion widget,
-         * and the editor hover.
-         */
         "editorHoverWidget.background": "#0d1016",
         "editorHoverWidget.border": "#000000",
         "editorHoverWidget.foreground": "#ff0000",
@@ -391,19 +278,14 @@
         "editorWidget.foreground": "#ff0000",
         "editorWidget.resizeBorder": "#ff0000",
 
-        //-: Debug Exception Widget - Peek that shows when debug stops at an exception
         "debugExceptionWidget.background": "#0d1016",
         "debugExceptionWidget.border": "#00010a",
 
-        //-: Editor Marker View - shows when navigating to errors and warnings in the editor
         "editorMarkerNavigation.background": "#0d1016",
         "editorMarkerNavigationError.background": "#ff0000",
         "editorMarkerNavigationInfo.background": "#ff0000",
         "editorMarkerNavigationWarning.background": "#ff0000",
 
-        /* Peek View Colors
-         * Peek views are used to show references and declarations as a view inside the editor
-         */
         "peekView.border": "#00010a",
         "peekViewEditor.background": "#0d1016",
         "peekViewEditor.matchHighlightBackground": "#e6b45033",
@@ -419,9 +301,6 @@
         "peekViewTitleDescription.foreground": "#4d5566",
         "peekViewTitleLabel.foreground": "#4d5566",
 
-        /* Merge Conflicts
-         * Merge conflict decorations are shown when the editor contains special diff ranges
-         */
         "merge.border": "#ff0000",
         "merge.commonContentBackground": "#ff0000",
         "merge.commonHeaderBackground": "#ff0000",
@@ -433,10 +312,6 @@
         "editorOverviewRuler.currentContentForeground": "#ff0000",
         "editorOverviewRuler.incomingContentForeground": "#ff0000",
 
-        /* Panel Colors
-         * Panels are shown below the editor area and contain views like Output and the
-         * Integrated Terminal.
-         */
         "panel.background": "#0a0e14",
         "panel.border": "#00010a",
         "panel.dropBorder": "#ff0000",
@@ -450,14 +325,8 @@
         "panelTitle.activeForeground": "#b3b1ad",
         "panelTitle.inactiveForeground": "#4d5566",
 
-        /* Preview Colors
-         * Colors for image in image preview
-         */
         "imagePreview.border": "#ff0000",
 
-        /* Status Bar Colors
-         * The Status Bar is shown at the bottom of the workbench.
-         */
         "statusBar.background": "#0a0e14",
         "statusBar.border": "#0a0e14",
         "statusBar.debuggingBackground": "#f29668",
@@ -477,19 +346,12 @@
         "statusBarItem.remoteBackground": "#ff0000",
         "statusBarItem.remoteForeground": "#ff0000",
 
-        /* Title Bar Colors (macOS)
-         * The title bar is a separate entity on macOS and has both
-         * an active and an inactive state.
-         */
         "titleBar.activeBackground": "#0a0e14",
         "titleBar.activeForeground": "#b3b1ad",
         "titleBar.border": "#0a0e14",
         "titleBar.inactiveBackground": "#0a0e14",
         "titleBar.inactiveForeground": "#4d5566",
 
-        /* Menu Bar Colors
-         * Colors that define the menu bar
-         */
         "menubar.selectionBackground": "#ff0000",
         "menubar.selectionBorder": "#ff0000",
         "menubar.selectionForeground": "#ff0000",
@@ -501,11 +363,6 @@
         "menu.selectionForeground": "#ff0000",
         "menu.separatorBackground": "#ff0000",
 
-        /* Notification Dialog Colors
-         * Notification toasts slide in from the bottom right of the workbench.
-         * Once opened in the Notification Center, they are displayed in a list
-         * with a header.
-         */
         "notificationCenter.border": "#ff0000",
         "notificationLink.foreground": "#ff0000",
         "notifications.background": "#ff0000",
@@ -518,28 +375,18 @@
         "notificationsWarningIcon.foreground": "#ff0000",
         "notificationToast.border": "#ff0000",
 
-        /* Extensions Colors
-         * The Extensions panel that displays in the Side Bar
-         */
         "extensionBadge.remoteBackground": "#ff0000",
         "extensionBadge.remoteForeground": "#ff0000",
         "extensionButton.prominentBackground": "#e6b450",
         "extensionButton.prominentForeground": "#0a0e14",
         "extensionButton.prominentHoverBackground": "#e1af4b",
 
-        /* Quick Picker Colors
-         *
-         */
         "pickerGroup.border": "#00010a",
         "pickerGroup.foreground": "#373d49",
         "quickInput.background": "#ff0000",
         "quickInput.foreground": "#ff0000",
         "quickInputTitle.background": "#ff0000",
 
-        /* Integrated Terminal Colors
-         * The Integrated Terminal is one of the panels at the bottom of the workbench.
-         * It allows using a shell (CMD, PowerShell, Bash, Zsh) from within Code.
-         */
         "terminal.ansiBlack": "#00010a",
         "terminal.ansiRed": "#ea6c73",
         "terminal.ansiGreen": "#91b362",
@@ -563,9 +410,6 @@
         "terminalCursor.background": "#ff0000",
         "terminalCursor.foreground": "#ff0000",
 
-        /* Debug Colors
-         * The Debug console in the panel at the bottom of the workbench.
-         */
         "debugTokenExpression.boolean": "#ff0000",
         "debugTokenExpression.error": "#ff0000",
         "debugTokenExpression.name": "#ff0000",
@@ -582,25 +426,13 @@
         "editor.stackFrameHighlightBackground": "#ff0000",
         "editor.focusedStackFrameHighlightBackground": "#ff0000",
 
-        /* Welcome Page
-         * The Welcome Page greets you each time you open Code, unless you
-         * disabled it.
-         */
         "walkThrough.embeddedEditorBackground": "#0d1016",
         "welcomePage.background": "#ff0000",
         "welcomePage.buttonBackground": "#ff0000",
         "welcomePage.buttonHoverBackground": "#ff0000",
 
-        /* Source Control Colors
-         * Theme colors for the SCM
-         */
         "scm.providerBorder": "#ff0000",
 
-        /* Git Colors
-         * Git decorations display in the scrollbar gutter to the right of the minimap, if enabled,
-         * or against the right edge. (Just to the left of the Side Bar if you've moved it to
-         * the right side of the screen)
-         */
         "gitDecoration.addedResourceForeground": "#ff0000",
         "gitDecoration.conflictingResourceForeground": "",
         "gitDecoration.deletedResourceForeground": "#d96c75b3",
@@ -611,10 +443,6 @@
         "gitDecoration.submoduleResourceForeground": "#ffee99b3",
         "gitDecoration.untrackedResourceForeground": "#91b362b3",
 
-        /* Settings Editor Colors
-         * The colors are for the GUI Settings Editor which can be opened with the
-         * Preferences: Open Settings(UI) command.
-         */
         "notebook.focusedRowBorder": "#ff0000",
         "notebook.rowHoverBackground": "#ff0000",
         "settings.checkboxBackground": "#ff0000",
@@ -634,27 +462,17 @@
         "settings.textInputBorder": "#ff0000",
         "settings.textInputForeground": "#ff0000",
 
-        /* Breadcrumbs Colors
-         * Theme colors for the breadcrumbs feature just below the Tabs.
-         */
         "breadcrumb.activeSelectionForeground": "#ff0000",
         "breadcrumb.background": "#ff0000",
         "breadcrumb.focusForeground": "#ff0000",
         "breadcrumb.foreground": "#ff0000",
         "breadcrumbPicker.background": "#ff0000",
 
-        /* Snippets Colors
-         * Theme colors for snippets
-         */
         "editor.snippetFinalTabstopHighlightBackground": "#ff0000",
         "editor.snippetFinalTabstopHighlightBorder": "#ff0000",
         "editor.snippetTabstopHighlightBackground": "#ff0000",
         "editor.snippetTabstopHighlightBorder": "#ff0000",
 
-        /* Symbol Icons Colors
-         * Theme colors for symbol icons that appear in the Outline view,
-         * breadcrumb navigation, and suggestion widget.
-         */
         "symbolIcon.arrayForeground": "#ff0000",
         "symbolIcon.booleanForeground": "#ff0000",
         "symbolIcon.classForeground": "#ff0000",
@@ -689,9 +507,6 @@
         "symbolIcon.unitForeground": "#ff0000",
         "symbolIcon.variableForeground": "#ff0000",
 
-        /* Debug Icons Colors
-         * Theme colors for debug icons
-         */
         "debugConsole.errorForeground": "#ff0000",
         "debugConsole.infoForeground": "#ff0000",
         "debugConsole.sourceForeground": "#ff0000",
@@ -713,9 +528,6 @@
         "debugIcon.stepOverForeground": "#ff0000",
         "debugIcon.stopForeground": "#ff0000",
 
-        /* Notebook Colors
-         * Theme colors for the notebook feature
-         */
         "notebook.cellBorderColor": "#ff0000",
         "notebook.focusedEditorBorder": "#ff0000",
         "notebook.cellHoverBackground": "#ff0000",
@@ -734,9 +546,6 @@
         "notebookStatusRunningIcon.foreground": "#ff0000",
         "notebookStatusSuccessIcon.foreground": "#ff0000",
 
-        /* Chart Colors
-         * Visualize data as charts in the UI.
-         */
         "charts.blue": "#ff0000",
         "charts.foreground": "#ff0000",
         "charts.green": "#ff0000",
@@ -746,16 +555,10 @@
         "charts.red": "#ff0000",
         "charts.yellow": "#ff0000",
 
-        /* BONUS: Extensions
-         * UI Color settings for some popular extensions to help them "fit in".
-         */
-
-        //-: Bookmarks
         "bookmarks.lineBackground": "#ff0000",
         "bookmarks.lineBorder": "#ff0000",
         "bookmarks.overviewRuler": "#ff0000",
 
-        //-: GitLens
         "gitlens.gutterBackgroundColor": "#ff0000",
         "gitlens.gutterForegroundColor": "#ff0000",
         "gitlens.gutterUncommittedForegroundColor": "#ff0000",
@@ -765,11 +568,6 @@
         "gitlens.trailingLineForegroundColor": "#ff0000"
     },
 
-    /* Token Color Definitions
-     * These colors define the syntax highlighting for languages.
-     * There are no logical groupings for these entries, so they
-     * are presented in the order they were modified.
-     */
     "tokenColors": [
         {
             "name": "Changed",
