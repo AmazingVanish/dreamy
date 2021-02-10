@@ -1,36 +1,36 @@
 {
-  "name": "dreamy",
-  "displayName": "Dreamy",
-  "description": "Dark theme for aesthetics",
-  "version": "1.0.0",
-  "publisher": "dreamscape-visionery-llc",
-  "engines": {
-    "vscode": "^1.52.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Dreamy Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dreamy-dark.json"
-      },
-      {
-        "label": "Dreamy Neutral",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dreamy-neutral.json"
-      },
-      {
-        "label": "Dreamy Light",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dreamy-light.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AmazingVanish/dreamy.git"
-  }
+    "name": "dreamy",
+    "displayName": "Dreamy",
+    "description": "A theme for aesthetes in 3 variations",
+    "version": "1.0.0",
+    "publisher": "dreamscape-visionery-llc",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dreamy Darkness",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dreamy-darkness.json"
+            },
+            {
+                "label": "Dreamy Fog of War",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dreamy-fog-of-war.json"
+            },
+            {
+                "label": "Dreamy Lightness",
+                "uiTheme": "vs",
+                "path": "./themes/Dreamy-lightness.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AmazingVanish/dreamy.git"
+    }
 }

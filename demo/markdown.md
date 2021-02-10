@@ -12,7 +12,7 @@
 4. Search for `dreamy`
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
-7. File > Preferences > Color Theme > **Dreamy**
+7. File > Preferences > Color Theme > **Dreamy - Darkness**
 
 -[ ] check check 12 12
 -[ ] check check 12 12
